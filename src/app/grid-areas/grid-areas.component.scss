@@ -1,0 +1,74 @@
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "title"
+    "description"
+    "image";
+  gap: 1em;
+}
+
+.title {
+  grid-area: title;
+}
+
+.description {
+  grid-area: description;
+}
+
+img {
+  grid-area: image;
+  border-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 500px) {
+  .grid-container {
+    grid-template-areas:
+      "title image"
+      "description image";
+  }
+}
+
+// .grid-with-cover {
+//   grid-template-columns: [box-start] auto auto [box-end];
+//   grid-template-rows: [box-start] auto auto [box-end];
+// }
+
+// .box {
+//   grid-area: box;
+//   height: 100%;
+//   width: 100%;
+//   background: red;
+// }
+
+// .item1 {
+//   grid-area: header;
+// }
+// .item2 {
+//   grid-area: menu;
+// }
+// .item3 {
+//   grid-area: main;
+// }
+// .item4 {
+//   grid-area: right;
+// }
+// .item5 {
+//   grid-area: footer;
+// }
+
+// .grid-container {
+//   display: grid;
+//   grid-template-areas:
+//     "header header header header header header"
+//     "menu main main main right right"
+//     "menu footer footer footer footer footer";
+//   grid-gap: 10px;
+//   padding: 10px;
+// }
+
+// @media screen and (max-width: 500px) {
+//   .grid-container {
+//     grid-template-areas: "header" "menu" "main" "right" "footer";
+//   }
+// }

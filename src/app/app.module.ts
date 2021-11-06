@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SpecificityComponent } from './specificity/specificity.component';
 import { AnimationComponent } from './animation/animation.component';
 import { GridComponent } from './grid/grid.component';
+import { GridAreasComponent } from './grid-areas/grid-areas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GridComponent } from './grid/grid.component';
     HomeComponent,
     SpecificityComponent,
     AnimationComponent,
-    GridComponent
+    GridComponent,
+    GridAreasComponent
   ],
   imports: [
     BrowserModule,
