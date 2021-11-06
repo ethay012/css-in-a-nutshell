@@ -1,0 +1,21 @@
+.animation-container {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  transition: 0.5s ease;
+}
+
+.animated:hover {
+  width: 250px;
+  height: 250px;
+}
+
+.optimized:hover {
+  transform: scale(1.25);
+}
