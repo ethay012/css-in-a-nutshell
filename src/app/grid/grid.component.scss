@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(2, 200px);
+  grid-auto-flow: unset;
+  gap: 1em;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+// .grid-item:nth-child(3n) {
+//   grid-column: span 2;
+//   background: #bcb211;
+// }
+
+// .grid-item:nth-child(5n) {
+//   grid-row: span 3;
+//   background: #1d7e33;
+// }

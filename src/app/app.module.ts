@@ -7,6 +7,7 @@ import { BoxModelComponent } from './box-model/box-model.component';
 import { HomeComponent } from './home/home.component';
 import { SpecificityComponent } from './specificity/specificity.component';
 import { AnimationComponent } from './animation/animation.component';
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AnimationComponent } from './animation/animation.component';
     BoxModelComponent,
     HomeComponent,
     SpecificityComponent,
-    AnimationComponent
+    AnimationComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
