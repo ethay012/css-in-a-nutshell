@@ -1,0 +1,21 @@
+.box-model-container {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
+}
+
+.container {
+  margin: 2rem;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.other-container {
+  height: 150px;
+  width: 150px;
+  padding: 50px;
+}
+
+.default-box-sizing {
+  box-sizing: content-box;
+}
