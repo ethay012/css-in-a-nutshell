@@ -1,0 +1,22 @@
+.home-container {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.nav-cards-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+a {
+  text-decoration: none;
+}

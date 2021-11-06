@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  background: var(--body-bg);
+  height: 100vh;
+  padding: 2em;
+}
+
+:root {
+  --body-bg: #3e4754;
+  --card-bg: #293241;
+  --card-hover-bg: #545b67;
+  --text-color: #eaebec;
+  --card-box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+  --border-radius: 20px;
+  --transition: 0.5s ease;
+}
+
+.card {
+  padding: 1em;
+  border-radius: var(--border-radius);
+  background: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: var(--card-box-shadow);
+  transition: background var(--transition);
+
+  &:hover {
+    background: var(--card-hover-bg);
+    cursor: pointer;
+  }
+}
