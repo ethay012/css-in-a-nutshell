@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .box {
+    height: 40vmax;
+    width: 40vmax;
+    background: var(--card-bg);
+  }
+}
+
+.box:hover {
+  background: var(--card-hover-bg);
+  cursor: pointer;
+}
+
+// .box.box {
+//   background: blue;
+// }
+
+// .box.box.box {
+//   background: white;
+// }
+
+// .box {
+//   background: red !important;
+// }
